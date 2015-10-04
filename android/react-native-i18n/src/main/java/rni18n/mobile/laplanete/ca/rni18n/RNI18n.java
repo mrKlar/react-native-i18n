@@ -25,7 +25,7 @@ public class RNI18n extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public String getCurrentLocale()  {
-        return getReactApplicationContext().getResources().getConfiguration().locale.getISO3Language();
+        return getReactApplicationContext().getResources().getConfiguration().locale.getLanguage();
     }
 
     @Override
