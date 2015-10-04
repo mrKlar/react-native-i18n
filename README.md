@@ -4,18 +4,14 @@ Integrates [I18n.js](https://github.com/fnando/i18n-js) with React Native. Uses 
 
 ## Installation
 
-* iOS
 
-`$ npm install react-native-i18n --save`
+`$ npm install react-native-i18n-complete --save`
+
+* iOS
 
 Add `RNI18n.xcodeproj` to **Libraries** and add `libRNI18n.a` to **Link Binary With Libraries** under **Build Phases**. [More info and screenshots about how to do this is available in the React Native documentation](http://facebook.github.io/react-native/docs/linking-libraries.html).
 
-
 * Android
-
-```bash
-npm install --save react-native-i18n-complete
-```
 
 * `android/settings.gradle`
 
