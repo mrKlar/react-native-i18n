@@ -282,6 +282,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -297,6 +298,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
