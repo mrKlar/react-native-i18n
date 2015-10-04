@@ -1,6 +1,6 @@
 {
-  "name": "react-native-i18n-complete”,
-  "version": “0.0.7”,
+  "name": "react-native-i18n-complete",
+  "version": "0.0.9",
   "description": "React Native and I18n.js integration",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,10 @@
     "react-native",
     "react-component",
     "ios",
+    "android",
     "i18n"
   ],
-  "author": "Alexander Zaytsev / Nicolas Desjardins“,
+  "author": "Alexander Zaytsev Nicolas Desjardins",
   "license": "MIT",
   "devDependencies": {
     "react-native": "^0.5.0"
