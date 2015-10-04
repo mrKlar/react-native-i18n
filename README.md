@@ -4,9 +4,67 @@ Integrates [I18n.js](https://github.com/fnando/i18n-js) with React Native. Uses 
 
 ## Installation
 
+* iOS
+
 `$ npm install react-native-i18n --save`
 
 Add `RNI18n.xcodeproj` to **Libraries** and add `libRNI18n.a` to **Link Binary With Libraries** under **Build Phases**. [More info and screenshots about how to do this is available in the React Native documentation](http://facebook.github.io/react-native/docs/linking-libraries.html).
+
+
+* Android
+
+```bash
+npm install --save react-native-i18n-complete
+```
+
+* `android/settings.gradle`
+
+```gradle
+...
+include ':react-native-i18n'
+project(':react-native-i18n').projectDir = new File(settingsDir, '../node_modules/react-native-i18n-complete/android/react-native-i18n')
+```
+
+* `android/app/build.gradle`
+
+```gradle
+dependencies {
+	...
+	compile project(':react-native-i18n')
+}
+```
+
+* register module (in MainActivity.java)
+
+```java
+...
+
+import io.jbrodriguez.react.*; // <--- import
+
+public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
+	...
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mReactRootView = new ReactRootView(this);
+
+        mReactInstanceManager = ReactInstanceManager.builder()
+                .setApplication(getApplication())
+                .setBundleAssetName("index.android.bundle")
+                .setJSMainModuleName("index.android")
+                .addPackage(new MainReactPackage())
+                .addPackage(new RNSQLiteModule())           // <- add here
+                .setUseDeveloperSupport(BuildConfig.DEBUG)
+                .setInitialLifecycleState(LifecycleState.RESUMED)
+                .build();
+
+        mReactRootView.startReactApplication(mReactInstanceManager, "YourProject", null);
+
+        setContentView(mReactRootView);
+    }
+}
+```
 
 ## Usage
 
