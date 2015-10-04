@@ -1,8 +1,6 @@
 package rni18n.mobile.laplanete.ca.rni18n;
 
-import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
@@ -25,7 +23,7 @@ public class RNI18n extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public String getCurrentLocale()  {
-        return getReactApplicationContext().getResources().getConfiguration().locale.getLanguage();
+        return getReactApplicationContext().getResources().getConfiguration().locale.toString();
     }
 
     @Override
