@@ -35,7 +35,7 @@ dependencies {
 ```java
 ...
 
-import io.jbrodriguez.react.*; // <--- import
+import rni18n.mobile.laplanete.ca.rni18n.RNI18nPackage; // <--- import
 
 public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
 	...
@@ -46,14 +46,14 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
         mReactRootView = new ReactRootView(this);
 
         mReactInstanceManager = ReactInstanceManager.builder()
-                .setApplication(getApplication())
-                .setBundleAssetName("index.android.bundle")
-                .setJSMainModuleName("index.android")
-                .addPackage(new MainReactPackage())
-                .addPackage(new RNSQLiteModule())           // <- add here
-                .setUseDeveloperSupport(BuildConfig.DEBUG)
-                .setInitialLifecycleState(LifecycleState.RESUMED)
-                .build();
+                        .setApplication(getApplication())
+                        .setBundleAssetName("index.android.bundle")
+                        .setJSMainModuleName("index.android")
+                        .addPackage(new MainReactPackage())
+                        .addPackage(new RNI18nPackage())
+                        .setUseDeveloperSupport(BuildConfig.DEBUG)
+                        .setInitialLifecycleState(LifecycleState.RESUMED)
+                        .build();
 
         mReactRootView.startReactApplication(mReactInstanceManager, "YourProject", null);
 
