@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ea85ec-0d05-4716-bc9f-8c43f4a99c72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/react-native-i18n/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/proguard-rules.pro" afterPath="$PROJECT_DIR$/android/proguard-rules.pro" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/react-native-i18n.iml" afterPath="$PROJECT_DIR$/android/react-native-i18n.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/androidTest/java/rni18n/mobile/laplanete/ca/rni18n/ApplicationTest.java" afterPath="$PROJECT_DIR$/android/src/androidTest/java/rni18n/mobile/laplanete/ca/rni18n/ApplicationTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/java/rni18n/mobile/laplanete/ca/rni18n/RNI18n.java" afterPath="$PROJECT_DIR$/android/src/main/java/rni18n/mobile/laplanete/ca/rni18n/RNI18n.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/java/rni18n/mobile/laplanete/ca/rni18n/RNI18nPackage.java" afterPath="$PROJECT_DIR$/android/src/main/java/rni18n/mobile/laplanete/ca/rni18n/RNI18nPackage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/android/src/main/res/values/colors.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/android/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/android/src/main/res/values/styles.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/react-native-i18n/src/test/java/rni18n/mobile/laplanete/ca/rni18n/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/android/src/test/java/rni18n/mobile/laplanete/ca/rni18n/ExampleUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.idea/.name" afterPath="$PROJECT_DIR$/android/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.idea/misc.xml" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.idea/modules.xml" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.idea/vcs.xml" afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/gradlew" afterPath="$PROJECT_DIR$/android/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="react-native-i18n.iws" />
@@ -24,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -46,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -62,16 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/react-native-i18n/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -82,8 +100,8 @@
       <list>
         <option value="$PROJECT_DIR$/vendor/i18n.js" />
         <option value="$PROJECT_DIR$/android/react-native-i18n/build.gradle" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -224,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1443965083737</updated>
-      <workItem from="1459087154125" duration="2328000" />
+      <workItem from="1459087154125" duration="2576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2328000" />
+    <option name="totallyTimeSpent" value="2576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="183" y="66" width="1545" height="1001" extended-state="0" />
@@ -328,14 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -353,6 +363,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
