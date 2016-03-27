@@ -1,6 +1,6 @@
 {
   "name": "react-native-i18n-complete",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "React Native and I18n.js integration",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
   "author": "Alexander Zaytsev & Nicolas Desjardins",
   "license": "MIT",
   "devDependencies": {
-    "react-native": "^0.11.4"
+    "react":"0.14.7",
+    "react-native": "^0.22.2"
   },
   "peerDependencies": {
     "react-native": ">=0.4.0 <1.0.0"
