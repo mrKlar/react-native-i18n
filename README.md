@@ -40,25 +40,17 @@ import rni18n.mobile.laplanete.ca.rni18n.RNI18nPackage; // <--- import
 public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
 	...
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mReactRootView = new ReactRootView(this);
-
-        mReactInstanceManager = ReactInstanceManager.builder()
-                        .setApplication(getApplication())
-                        .setBundleAssetName("index.android.bundle")
-                        .setJSMainModuleName("index.android")
-                        .addPackage(new MainReactPackage())
-                        .addPackage(new RNI18nPackage())
-                        .setUseDeveloperSupport(BuildConfig.DEBUG)
-                        .setInitialLifecycleState(LifecycleState.RESUMED)
-                        .build();
-
-        mReactRootView.startReactApplication(mReactInstanceManager, "YourProject", null);
-
-        setContentView(mReactRootView);
-    }
+    /**
+         * A list of packages used by the app. If the app uses additional views
+         * or modules besides the default ones, add more packages here.
+         */
+        @Override
+        protected List<ReactPackage> getPackages() {
+            return Arrays.<ReactPackage>asList(
+                new MainReactPackage(),
+                new RNI18nPackage()
+            );
+        }
 }
 ```
 
